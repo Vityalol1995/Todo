@@ -1,0 +1,22 @@
+.dropdown {
+  position: absolute;
+  top: 63px;
+  right: 0;
+  z-index: 1000;
+  background-color: $G400;
+  border: 1px solid $N200;
+  border-radius: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  width: 275px;
+  color: $White;
+}
+
+.dropdown__list {
+  margin: -8px 0 ;
+}
+
+.dropdown__item {
+  user-select: text;
+  padding: 8px 0;
+}

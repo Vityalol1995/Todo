@@ -1,0 +1,35 @@
+.field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  &__label {
+    display: inline-flex;
+    overflow: hidden;
+    margin-bottom: 8px;
+    line-height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+
+    span {
+      color: red;
+    }
+  }
+
+  input {
+    appearance: none;
+    border: 1px solid $G400;
+    background-color: $N100;
+    border-radius: 12px;
+    padding: 13px 15px;
+    font-family: Open Sans,sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: $N400;
+
+    &::placeholder {
+      color: $N400;
+    }
+  }
+}

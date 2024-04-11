@@ -1,0 +1,31 @@
+.select {
+  width: 100%;
+  min-width: 214px;
+
+  &__group {
+    position: relative;
+  }
+
+  &__part {
+    display: block;
+    padding-right: 40px;
+    width: 100%;
+
+    border: 1px solid $G400;
+    background-color: $N100;
+    border-radius: 12px;
+    font-weight: 400;
+    font-size: 15px;
+    color: $N400;
+  }
+
+  &__icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    stroke: $N500;
+    transform: translateY(-50%);
+    pointer-events: none;
+    fill: none;
+  }
+}

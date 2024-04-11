@@ -1,0 +1,14 @@
+.footer {
+  background-color: $G500;
+  border-top: 1px solid $G400;
+  height: 80px;
+  flex: 0 0 auto;
+}
+
+.footer__container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: $N400;
+  font-size: 14px;
+}

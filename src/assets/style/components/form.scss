@@ -1,0 +1,42 @@
+.form {
+  max-width: 600px;
+  border-radius: 16px;
+  padding: 20px 40px 20px;
+}
+
+.form--signin {
+  background-color: $N100;
+  margin: 0 auto;
+  border: 1px solid $G400;
+}
+
+.form__label {
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+.form__item--submit {
+  margin-top: 32px;
+}
+
+.form__items {
+  display: flex;
+  margin: -15px -10px;
+}
+
+.form__item {
+  flex: 1;
+  padding: 15px 10px;
+}
+
+@media screen and (max-width: 500px){
+  .form {
+    border-radius: 0;
+    padding: 20px;
+  }
+
+  .form--signin {
+    height: 100%;
+  }
+}
+

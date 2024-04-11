@@ -1,0 +1,24 @@
+.layout {
+  padding-top: 80px;
+}
+
+.layout__section {
+  padding: 50px 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 500px){
+  .layout {
+    height: 100%;
+  }
+  .layout__section {
+    padding: 0;
+
+    .container {
+      padding: 0;
+      height: 100%;
+    }
+  }
+}

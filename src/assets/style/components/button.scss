@@ -1,0 +1,20 @@
+.button {
+  background-color: $P500;
+  padding: 14px 32px;
+  font-size: 14px;
+  font-weight: 700;
+  width: 100%;
+  color: $White;
+  border-radius: 8px;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.button__logout {
+  background-color: transparent;
+  color: $error;
+  padding: 0;
+  width: auto;
+  font-size: 17px;
+}
